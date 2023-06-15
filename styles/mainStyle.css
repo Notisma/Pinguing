@@ -1,0 +1,29 @@
+/*-------------------GLOBAL-------------*/
+body {
+	background-size: cover;
+}
+a {
+	color: darkgreen;
+	text-decoration: underline;
+}
+
+/*---------------------MENU-----------------*/
+header > h1 {
+	display: inline;
+}
+#menu a {
+	text-decoration: none;
+}
+#currentPage {
+	background-color: orangered;
+}
+#menu {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+#menu h2 {
+//	font-size: 10vw;
+	
+	padding: 0 2%;
+}
